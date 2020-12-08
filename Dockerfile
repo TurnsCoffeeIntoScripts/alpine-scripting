@@ -1,7 +1,7 @@
 #FROM alpine:latest
 FROM ubuntu:18.04
 
-RUN apk add --no-cache \
+RUN apt-get install \
     bash \
     curl \
     jq \
