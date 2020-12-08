@@ -1,4 +1,5 @@
-FROM alpine:latest
+#FROM alpine:latest
+FROM ubuntu:18.04
 
 RUN apk add --no-cache \
     bash \
