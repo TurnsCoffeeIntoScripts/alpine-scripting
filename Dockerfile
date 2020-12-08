@@ -11,4 +11,4 @@ RUN apk add --no-cache \
     && update-ca-certificates 2>/dev/null || true \
 ;
 
-CMD: [ "/bin/bash" ]
+CMD [ "/bin/bash" ]
