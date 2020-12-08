@@ -1,7 +1,7 @@
 #FROM alpine:latest
 FROM ubuntu:18.04
 
-RUN apt-get install \
+RUN apt-get update && apt-get install -y \
     bash \
     curl \
     jq \
