@@ -5,7 +5,6 @@ RUN apt-get update && apt-get install -y \
     bash \
     curl \
     jq \
-    spawn \
     ssh \
     expect \
     ca-certificates \
