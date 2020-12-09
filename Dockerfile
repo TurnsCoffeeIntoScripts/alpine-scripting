@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     jq \
     ssh \
+    sshpass \
     expect \
     ca-certificates \
     && update-ca-certificates 2>/dev/null || true \
