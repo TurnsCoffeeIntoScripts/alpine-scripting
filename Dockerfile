@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
     ssh \
     sshpass \
     expect \
+    gnupg \
     ca-certificates \
     && update-ca-certificates 2>/dev/null || true \
 ;
